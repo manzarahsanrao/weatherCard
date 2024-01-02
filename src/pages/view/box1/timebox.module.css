@@ -1,0 +1,80 @@
+.timeDateDaybox {
+    /* border: 2px solid red; */
+    padding: 15px 15PX 5PX 15PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fafafa;
+    backdrop-filter: blur(10px);
+    height: 50%;
+    /* gap: 20px; */
+}
+
+
+.timeDate {
+    /* border: 2px solid purple; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* margin-bottom: 30px; */
+
+}
+
+.time {
+    margin: 0;
+    /* border: 2px solid blue; */
+    font-family: 'Poppins-Regular';
+    font-size: x-large;
+}
+
+.date {
+    margin: 0;
+    /* border: 2px solid blue; */
+    font-family: 'Poppins-Regular';
+    font-size: small;
+}
+
+
+.timezone {
+    /* border: 2px solid orange; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    /* margin-top: 30px; */
+}
+
+.timezoneValuesBox {
+    /* border: 2px solid white; */
+    display: flex;
+    font-family: 'Poppins-Regular';
+    font-size: x-small;
+    gap: 18px;
+}
+
+/* .timezoneValues {
+    /* border: 2px solid blue; */
+/* margin: 5px; */
+
+
+.timezoneValues:hover {
+    cursor: pointer;
+}
+
+/* 
+.timezoneArrow {
+    border: 2px solid purple;
+} */
+
+
+.timezoneArrow:hover {
+    cursor: pointer;
+}
+
+
+@media(max-width: 415px) {
+
+    .timeDateDaybox {
+        padding: 0;
+    }
+}

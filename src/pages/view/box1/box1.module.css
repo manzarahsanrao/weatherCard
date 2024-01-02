@@ -1,0 +1,25 @@
+.box1 {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px 0px 10px;
+}
+
+
+@media (max-width: 628px) {
+
+    .box1 {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+}
+
+@media (max-width: 415px) {
+    .box1 {
+        padding: 0;
+        width: 100%;
+    }
+}
